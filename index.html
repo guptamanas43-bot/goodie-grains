@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Baked Snacks Brand from India | ROASTANA</title>
+    <meta name="description" content="ROASTANA by Goodie Grains LLP offers premium baked snacks—delicious, nutritious & flavourful. Export-ready products for global markets.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8B7355',
+                        'primary-dark': '#6B5344',
+                        secondary: '#D4C4B0',
+                        accent: '#A8D5BA',
+                        cream: '#FAF8F5',
+                        'text-main': '#3D3D3D',
+                        'text-light': '#6B6B6B',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="font-sans text-text-main">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center">
+                    <span class="text-2xl font-serif font-bold text-primary">ROASTANA</span>
+                    <span class="hidden sm:block text-xs text-text-light ml-2">by Goodie Grains LLP</span>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-primary font-medium">Home</a>
+                    <a href="products.html" class="text-text-light hover:text-primary transition">Products</a>
+                    <a href="about.html" class="text-text-light hover:text-primary transition">About</a>
+                    <a href="contact.html" class="text-text-light hover:text-primary transition">Contact</a>
+                    <a href="bulk-enquiry.html" class="btn-primary text-sm">Bulk Enquiry</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden md:hidden pb-4">
+                <a href="index.html" class="block py-2 text-primary font-medium">Home</a>
+                <a href="products.html" class="block py-2 text-text-light">Products</a>
+                <a href="about.html" class="block py-2 text-text-light">About</a>
+                <a href="contact.html" class="block py-2 text-text-light">Contact</a>
+                <a href="bulk-enquiry.html" class="block py-2 text-primary font-medium">Bulk Enquiry</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-to-b from-cream to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-4xl mx-auto">
+                <p class="text-primary font-medium mb-4 tracking-wide">ROASTANA by Goodie Grains LLP</p>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-text-main mb-6">
+                    Premium Baked Snacks for Modern, Global Consumers
+                </h1>
+                <p class="text-lg text-text-light mb-8 max-w-2xl mx-auto">
+                    ROASTANA brings together bold flavour and clean nutrition through oven-baked snacks crafted to global quality standards. Healthy snacking, without compromise.
+                </p>
+
+                <!-- USP Highlights -->
+                <div class="flex flex-wrap justify-center gap-4 mb-10">
+                    <span class="inline-flex items-center px-4 py-2 bg-white rounded-full text-sm font-medium text-primary shadow-sm border border-secondary">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        Baked, Not Fried
+                    </span>
+                    <span class="inline-flex items-center px-4 py-2 bg-white rounded-full text-sm font-medium text-primary shadow-sm border border-secondary">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        Gluten-Free
+                    </span>
+                    <span class="inline-flex items-center px-4 py-2 bg-white rounded-full text-sm font-medium text-primary shadow-sm border border-secondary">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        Export-Ready
+                    </span>
+                    <span class="inline-flex items-center px-4 py-2 bg-white rounded-full text-sm font-medium text-primary shadow-sm border border-secondary">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        Made in India
+                    </span>
+                    <span class="inline-flex items-center px-4 py-2 bg-white rounded-full text-sm font-medium text-primary shadow-sm border border-secondary">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        Innovative Flavours
+                    </span>
+                </div>
+
+                <!-- CTAs -->
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="bulk-enquiry.html" class="btn-primary text-center">Bulk Enquiry</a>
+                    <a href="products.html" class="btn-secondary text-center">Explore Products</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Snapshot -->
+    <section class="py-16 bg-white border-y border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <p class="text-lg text-text-light max-w-3xl mx-auto">
+                    Founded in 2023, ROASTANA is a premium Indian snack brand focused on quality, flavour, and export-ready innovation.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <p class="text-sm text-text-light uppercase tracking-wide mb-1">Brand</p>
+                    <p class="text-xl font-serif font-semibold text-primary">ROASTANA</p>
+                </div>
+                <div>
+                    <p class="text-sm text-text-light uppercase tracking-wide mb-1">Company</p>
+                    <p class="text-xl font-serif font-semibold text-text-main">Goodie Grains LLP</p>
+                </div>
+                <div>
+                    <p class="text-sm text-text-light uppercase tracking-wide mb-1">Origin</p>
+                    <p class="text-xl font-serif font-semibold text-text-main">Kota, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Preview -->
+    <section class="py-20 bg-cream">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-text-main mb-4">Our Product Portfolio</h2>
+                <p class="text-lg text-text-light max-w-2xl mx-auto">
+                    Thoughtfully baked snacks designed for everyday indulgence and long-term trust.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Makhana -->
+                <div class="card bg-white">
+                    <div class="w-12 h-12 bg-secondary/50 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold mb-2">Roasted Flavoured Makhana</h3>
+                    <p class="text-text-light">Light, crunchy makhana coated with premium seasonings for guilt-free snacking.</p>
+                </div>
+
+                <!-- Millet Puffs -->
+                <div class="card bg-white">
+                    <div class="w-12 h-12 bg-secondary/50 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707"/></svg>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold mb-2">Millet Puffs</h3>
+                    <p class="text-text-light">Wholesome millets transformed into airy, flavour-forward snacks.</p>
+                </div>
+
+                <!-- Ragi Chips -->
+                <div class="card bg-white">
+                    <div class="w-12 h-12 bg-secondary/50 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold mb-2">Ragi Chips</h3>
+                    <p class="text-text-light">Oven-baked chips made with ancient grains and modern taste.</p>
+                </div>
+
+                <!-- Trail Mix -->
+                <div class="card bg-white">
+                    <div class="w-12 h-12 bg-secondary/50 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/></svg>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold mb-2">Trail Mix</h3>
+                    <p class="text-text-light">Balanced blends curated for convenience and energy.</p>
+                </div>
+
+                <!-- Protein Snacks -->
+                <div class="card bg-white relative">
+                    <span class="absolute top-4 right-4 px-2 py-1 bg-accent text-primary-dark text-xs font-medium rounded">Coming Soon</span>
+                    <div class="w-12 h-12 bg-secondary/50 rounded-lg flex items-center justify-center mb-4">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                    </div>
+                    <h3 class="text-xl font-serif font-semibold mb-2">Protein Snacks</h3>
+                    <p class="text-text-light">High-protein offerings developed for active lifestyles.</p>
+                </div>
+            </div>
+
+            <div class="text-center mt-10">
+                <a href="products.html" class="btn-secondary">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why ROASTANA -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-text-main mb-4">What Sets ROASTANA Apart</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-serif font-semibold mb-2">Oven-Baked Process</h3>
+                    <p class="text-text-light text-sm">Our snacks are baked, not fried—preserving flavour while reducing unnecessary fats.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-serif font-semibold mb-2">Premium Oils</h3>
+                    <p class="text-text-light text-sm">We use Rice Bran Oil and Olive Oil, selected for stability, nutrition, and quality.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-serif font-semibold mb-2">Clean Ingredients</h3>
+                    <p class="text-text-light text-sm">Simple, transparent formulations with no avoidable additives.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-serif font-semibold mb-2">Premium Seasonings</h3>
+                    <p class="text-text-light text-sm">Seasonings sourced from trusted vendors to deliver consistent, refined flavour.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"/></svg>
+                    </div>
+                    <h3 class="text-lg font-serif font-semibold mb-2">Customisation Capabilities</h3>
+                    <p class="text-text-light text-sm">We support customised seasoning requirements for bulk and international partners.</p>
+                </div>
+
+                <div class="text-center p-6">
+                    <div class="w-16 h-16 bg-cream rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                    </div>
+                    <h3 class="text-lg font-serif font-semibold mb-2">Quality-First Manufacturing</h3>
+                    <p class="text-text-light text-sm">Processes designed to minimise wastage while maintaining global standards.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bulk/Distribution CTA -->
+    <section class="py-20 bg-primary">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-serif font-bold text-white mb-4">Built for Global Partnerships</h2>
+            <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+                We collaborate with importers, exporters, distributors, airlines, and HoReCa partners seeking reliable, premium, and export-ready snack solutions.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="bulk-enquiry.html" class="bg-white text-primary px-8 py-4 rounded-lg font-medium hover:bg-cream transition inline-block">Bulk Enquiry</a>
+                <a href="contact.html" class="border-2 border-white text-white px-8 py-4 rounded-lg font-medium hover:bg-white/10 transition inline-block">Partner With Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Story -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-3xl md:text-4xl font-serif font-bold text-text-main mb-6">From a Foodie's Frustration to a Premium Brand</h2>
+                <div class="text-lg text-text-light space-y-4 max-w-3xl mx-auto">
+                    <p>
+                        ROASTANA wasn't created in a boardroom. It began with a simple frustration—finding snacks that were both flavourful and genuinely healthy.
+                    </p>
+                    <p>
+                        Built by a health-conscious foodie, ROASTANA was designed to deliver taste, quality, and nutrition without compromise.
+                    </p>
+                </div>
+                <div class="mt-8 p-6 bg-cream rounded-xl inline-block">
+                    <p class="text-primary font-serif text-xl italic">
+                        "Our vision is to build ROASTANA into a globally trusted premium snack brand, present in households across markets."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="py-16 bg-cream border-y border-secondary/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-10">
+                <h2 class="text-2xl font-serif font-semibold text-text-main">Recognition & Credibility</h2>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                <div class="p-4">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-3 shadow-sm">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                    </div>
+                    <p class="text-sm font-medium text-text-main">Exhibited at Indusfood</p>
+                </div>
+                <div class="p-4">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-3 shadow-sm">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                    </div>
+                    <p class="text-sm font-medium text-text-main">Participating at Gulfood</p>
+                </div>
+                <div class="p-4">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-3 shadow-sm">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
+                    </div>
+                    <p class="text-sm font-medium text-text-main">Trademark Registered</p>
+                </div>
+                <div class="p-4">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-3 shadow-sm">
+                        <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>
+                    </div>
+                    <p class="text-sm font-medium text-text-main">Recognised by TPCI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-main text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+                <!-- Brand -->
+                <div class="md:col-span-2">
+                    <h3 class="text-2xl font-serif font-bold mb-4">ROASTANA</h3>
+                    <p class="text-gray-400 mb-4">by Goodie Grains LLP</p>
+                    <p class="text-gray-400 text-sm">Premium oven-baked snacks crafted for modern, health-conscious consumers. Delicious, Nutritious & Flavourful.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li><a href="index.html" class="hover:text-white transition">Home</a></li>
+                        <li><a href="products.html" class="hover:text-white transition">Products</a></li>
+                        <li><a href="about.html" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="bulk-enquiry.html" class="hover:text-white transition">Bulk Enquiry</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-400 text-sm">
+                        <li>
+                            <a href="mailto:manasgupta@goodiegrains.com" class="hover:text-white transition">manasgupta@goodiegrains.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:+918290805041" class="hover:text-white transition">+91 8290805041</a>
+                        </li>
+                        <li>Kota, India</li>
+                    </ul>
+                    <div class="flex space-x-4 mt-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-10 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+                <p>&copy; 2024 ROASTANA by Goodie Grains LLP. All rights reserved.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="privacy-policy.html" class="hover:text-white transition">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="hover:text-white transition">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Menu Script -->
+    <script>
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
