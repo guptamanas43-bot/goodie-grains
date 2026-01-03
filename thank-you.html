@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | ROASTANA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#8B7355',
+                        'primary-dark': '#6B5344',
+                        secondary: '#D4C4B0',
+                        accent: '#A8D5BA',
+                        cream: '#FAF8F5',
+                        'text-main': '#3D3D3D',
+                        'text-light': '#6B6B6B',
+                    },
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="font-sans text-text-main">
+    <!-- Header -->
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <a href="index.html" class="flex items-center">
+                    <span class="text-2xl font-serif font-bold text-primary">ROASTANA</span>
+                    <span class="hidden sm:block text-xs text-text-light ml-2">by Goodie Grains LLP</span>
+                </a>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="index.html" class="text-text-light hover:text-primary transition">Home</a>
+                    <a href="products.html" class="text-text-light hover:text-primary transition">Products</a>
+                    <a href="about.html" class="text-text-light hover:text-primary transition">About</a>
+                    <a href="contact.html" class="text-text-light hover:text-primary transition">Contact</a>
+                    <a href="bulk-enquiry.html" class="btn-primary text-sm">Bulk Enquiry</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Thank You Content -->
+    <section class="min-h-screen pt-32 pb-20 bg-gradient-to-b from-cream to-white flex items-center">
+        <div class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-8">
+                <svg class="w-10 h-10 text-primary-dark" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+            </div>
+            <h1 class="text-4xl md:text-5xl font-serif font-bold text-text-main mb-6">Thank You!</h1>
+            <p class="text-lg text-text-light mb-8">
+                Your message has been received. Our team will review your enquiry and get back to you within 24-48 hours.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="index.html" class="btn-primary">Back to Home</a>
+                <a href="products.html" class="btn-secondary">Explore Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-text-main text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400 text-sm">&copy; 2024 ROASTANA by Goodie Grains LLP. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
